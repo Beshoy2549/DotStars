@@ -1,0 +1,1199 @@
+body {
+   
+    font-family: moonbold;
+
+
+}
+.linear{
+  background: linear-gradient(to right, rgba(251, 137, 38, .9), rgba(29, 127, 194, 1));
+
+}
+ .hr-one,
+ .hr-two {
+    height: 3px;
+    width: 90px;
+    display: inline-block;
+    margin: 3px 10px;
+}
+
+ .hr-one {
+    background-color: #f7923b;
+}
+
+ .hr-two {
+    background-color: #4981a3;
+}
+ .quter{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    vertical-align: middle;
+}
+/*main rules*/
+
+@font-face {
+    font-family: moonbold;
+    src: url('../fonts/Moon-Bold.ttf');
+}
+
+@font-face {
+    font-family: moonlight;
+    src: url('../fonts/Moon-Light.ttf');
+}
+@font-face {
+    font-family: SourceSans;
+    src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+@font-face {
+    font-family:SourceSansPro-SemiBold;
+    src: url('../fonts/SourceSansPro-SemiBold.ttf');
+}
+
+
+ul{
+ list-style: none;
+}
+/*start  style upper-bar*/
+
+.tool-bar {
+    background-color: #282828;
+  
+}
+
+.tool-bar .scoial,
+.tool-bar .info{
+   margin-top: 10px;
+   margin-bottom: 10px;    
+}
+
+.tool-bar .scoial li,
+.tool-bar .info  li{
+    display: inline-block;
+  
+}
+.tool-bar  .scoial li a,
+.tool-bar  .info li a{
+    color: #c4c4c4;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0px 5px;
+    }
+
+.tool-bar  .info li a{
+font-weight: normal;
+padding:0px 5px;    
+}
+
+.tool-bar  .scoial li a:after,
+.tool-bar  .info li a:after{
+content: "|";
+color: #484848;
+position: relative;
+left: 5px;
+top: -1px;
+}
+.tool-bar .scoial li:last-of-type a:after,
+.tool-bar  .info li:last-of-type a:after{
+content: " ";
+}
+
+
+/*end style upper-bar*/
+
+/*start  navbar  style*/
+
+.bg-light {
+    background-color: white !important;
+     font-family: moonlight;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+    padding-left: 0px;
+    padding-right: 4px;
+    color:#000;
+    margin-left: 22px;
+    
+}
+
+.navbar-light .navbar-nav i{
+    color: #fab87f;
+    font-size: 23px;
+}
+
+.navbar-light .navbar-nav .contact {
+    border-right: 1px solid #ddd;
+}
+
+/*end navbar style*/
+
+/*#############################*/
+
+/*start style div home */
+
+.home {
+    height: 600px;
+    background-image: url('../images/navbar.jpg');
+    background-position: left top;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(100% 0, 100% 100%, 50% 88%, 0 100%, 0 0);
+
+}
+
+.home .overlay {
+    background: linear-gradient(to right, rgba(251, 137, 38, .9), rgba(29, 127, 194, 1));
+    height: 600px;
+}
+
+.home  .business {
+    padding-top:10%;
+    color: #FFFFFF;
+    text-align: left;  
+}
+
+.home .business p {
+    font-size: 22px;
+    font-family: moonlight;
+    margin-top: 4%;
+}
+
+.home .business button {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 22px;
+    margin-top: 10%;
+    border-radius: 35px;
+    cursor: pointer;
+
+}
+.home .business button span{
+  background-image: linear-gradient(to right, rgba(251, 137, 38, .9), rgba(29, 127, 194, 1)); 
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+}
+.home  .business button i {
+    margin-right: 3%;
+    font-size: 28px;
+    color: #f0892e;
+}
+
+
+ .home .video  {
+    margin: 10% 0;
+    position: relative;
+    color:#ffffff;
+}
+
+ .home  .video i{
+    position: absolute;
+    font-size: 50px;
+    top:35%;
+    right: 42%;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    padding: 17px;
+     
+}
+/*start style div home */
+
+/*######################################*/
+
+/*START DIV ABOUT*/
+.about {
+    padding: 40px 0px;
+    text-align: center;
+   
+}
+.about h1{
+font-size: 35px;
+}
+
+
+.about .ipsum {
+    color: #b1b1b1;
+    margin: 2% 17%;
+    font-size: 17px;
+    width: 66%;
+}
+
+.about .moblie-app {
+    margin: 40px 0px;
+
+}
+
+.about .moblie-app img:nth-of-type(1) {
+    opacity: .4;
+    position: relative;
+    left: 27px;
+}
+
+ .about .moblie-app img:nth-of-type(2) {
+    position: relative;
+    top: 40px;
+    right: 88px;
+}
+
+.about .moblie-app h4 {
+    font-size: 20px;
+    padding-top: 15%;
+     
+}
+
+.about .moblie-app p {
+    font-size: 14px;
+    color: #b1b1b1;
+    padding-top: 4%;    
+}
+/*END DIV ABOUT*/
+/*#######################################*/
+
+
+/*START DIV OURPROTOFLIO*/
+.our-prtofilo {
+    padding: 30px 0px;
+    background-color: #f2f5fa;
+    text-align: center;
+    font-family: moonbold;
+}
+.our-prtofilo h1{
+font-size: 35px;
+}
+.our-prtofilo ul {
+    padding-top: 2%;
+      
+}
+.our-prtofilo ul li {
+    display: inline-block;
+    padding: 3% 1%;
+    cursor: pointer;
+    font-size: 18px;
+    color: #a5a6a8;
+}
+
+.our-prtofilo ul li.active {
+    color: #217fbf;
+}
+.our-prtofilo ul li:after{
+    content: "|";
+    color: #a7a8aa;
+    position: relative;
+    left: 5px;
+    left: 13px; 
+}
+.our-prtofilo ul li:last-of-type:after{
+content: " ";
+
+}
+
+.our-prtofilo .title-project {
+    background-color: white;
+    box-shadow: 4px 4px #eee;
+    margin: 5% 0%;
+    cursor: pointer;
+       position: relative;
+}
+
+.our-prtofilo .title-project img {
+    width: 100%;
+    height: 175px;
+ 
+}
+.our-prtofilo .title-project .over-lay{
+position: absolute;
+top: 0px;
+left: 0px;
+height: 0px;
+bottom: 0px;
+background-color:rgba(251, 137, 38, .6);
+width: 100%;
+height: 68%;
+display: none;
+transition: all  .4s ease-in-out; 
+    
+   
+}
+.our-prtofilo .title-project:hover .over-lay{
+display: block;
+}
+.our-prtofilo .title-project p {
+    text-align: left;
+    padding: 15px;
+    margin: 0px;
+}
+.our-prtofilo .mix{
+display: none;
+}
+.our-prtofilo .title-project span {
+    text-align: right;
+    display: block;
+    font-size: 14px;
+    color: #1d7fc2;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.our-prtofilo .title-project:hover span{
+color:#f0892e; 
+}
+.our-prtofilo a{
+    padding: 6px;
+    background-color: white;
+    border-radius: 34px;
+    border: 1px solid #f0892e;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+    width: 17%;
+    
+
+}
+.our-prtofilo a span {
+    background-image: linear-gradient(to right, rgba(251, 137, 38, .9), rgba(29, 127, 194, 1));
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+}
+
+/*END DIV OURPROTOFLIO*/
+
+/*start style div our-team*/
+.our-team{
+padding: 50px 0px;
+background-color:white;
+text-align: center;
+font-family: moonbold;      
+    
+}
+.our-team h1{
+font-size: 35px;
+}
+.our-team .outside {
+    position: relative;
+    width: 200px;
+    height: 185px;
+    margin: 40px auto;
+    background: linear-gradient(to right, rgba(251, 137, 38, .9), rgba(29, 127, 194, 1));
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.our-team .outside .overlay-hover .inside-overlay
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 0px;
+    bottom: 0px;
+    background-color:rgba(251, 137, 38, .6);
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition: all .4s ease-in-out;
+  
+}
+.our-team .outside .overlay-hover:hover .inside-overlay{
+display: block;
+}
+
+.our-team .inside,
+.our-team .outside .inside-1,
+.our-team .outside .inside-2,
+.our-team .outside .inside-3,
+.our-team .outside .inside-4 {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    background-repeat: no-repeat;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    cursor: pointer;
+}
+
+.our-team .outside .inside {
+    background-image: url(../images/team.jpg);
+    background-position: 67% 1%;
+}
+
+.our-team .outside .inside-1 {
+    background-image: url(../images/team5.jpg);
+    background-position: 47% 1%;
+}
+
+.our-team .outside .inside-2 {
+    background-image: url(../images/team2.jpg);
+    background-position: 51% 1%;
+}
+
+.our-team .outside .inside-3 {
+    background-image: url(../images/team3.jpg);
+    background-position: 23% 1%;
+}
+
+.our-team .outside .inside-4 {
+    background-image: url(../images/team4.jpg);
+    background-position: 64% 1%;
+}
+
+.our-team .caption h3 {
+    font-size: 25px;
+}
+
+.our-team .caption span {
+    display: block;
+    font-weight: bold;
+    color: #f7933c;
+}
+
+.next,
+.prev {
+    font-size: 30px;
+    color: white;
+    background: linear-gradient(to right, rgba(251, 137, 38, .9), rgba(29, 127, 194, 1));
+    cursor: pointer;
+    padding: 5px;
+    position: relative;
+    top: -100px;
+}
+
+.next {
+    left: 55%;
+}
+
+.prev {
+    right: 55%;
+}
+
+/*################################*/
+/*start style div our-client*/
+
+.our-client {
+    min-height: 500px;
+    background-image: url(../images/client.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.our-client h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 3px;
+}
+
+.our-client .over-lay {
+    min-height:500px;
+    background: linear-gradient(to right, rgba(251, 137, 38, .9), rgba(29, 127, 194, 1));
+}
+
+.our-client .carousel-item {
+    width: 100%;
+    background-color: #f7f8f9;
+    margin: 15% auto;
+    padding: 50px;
+    color: #9a9a99;
+}
+
+.our-client .carousel-item p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: 1px solid #c2c2c2;
+}
+
+.our-client .carousel-item img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 2% auto;
+    display: block;
+}
+
+.our-client .carousel-item span {
+    display: block;
+    text-align: center;
+    margin-top: 4%;
+    font-weight: bold;
+}
+
+.our-client .carousel-control-next {
+    right: -51px;
+}
+
+.our-client .carousel-control-prev {
+    left: -57px;
+}
+
+.our-client .fa-angle-left,
+.our-client .fa-angle-right {
+    color: #1d7fc2;
+    font-size: 60px;
+}
+
+/*#################################*/
+
+.Blogspot {
+    padding-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center
+ 
+}
+
+.Blogspot .Blop {
+    border: 2px solid #ddd;
+    margin-top: 15%;
+    box-shadow: 1px 1px 11px 1px #ccc;
+    position: relative;
+    cursor: pointer;
+}
+.Blogspot .Blop .col-md-4{
+padding: 0px;
+    
+}
+.Blogspot .Blop  .over-lay{
+    position: absolute;
+    top:12px;
+    left: 6px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height:36px;
+    display: none;
+    transition-delay: .8s;
+    transition-duration: .7s;
+  
+   
+ 
+}
+.Blogspot .Blop:hover .over-lay{
+    display: block;
+}
+
+.Blogspot .Blop  .over-lay span{
+font-size: 12px;
+display: block;
+font-weight: bold;
+}
+.Blogspot .Blop  .over-lay span:nth-of-type(1){
+color: #1d7fc2;
+
+}
+.Blogspot .Blop  .over-lay span:nth-of-type(2){
+color: #f7933c;
+line-height: 0;
+}
+.Blogspot .Blop .overlay-color{
+position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 0px;
+    bottom: 0px;
+    background-color:rgba(251, 137, 38, .6);
+    width: 100%;
+    height: 100%;
+    transition: all .4s ease-in-out;
+    display: none;
+    transition-delay: .3s;
+    transition-duration: .4s;
+    
+}
+.Blogspot .Blop:hover .overlay-color{
+display: block;
+}
+
+.Blogspot .Blop img {
+    height: 100%;
+    width:100%;
+    position: relative;
+    
+  
+}
+
+.Blogspot .Blop p {
+    text-align: left;
+    padding-top: 2px;
+    margin: 0;
+    font-size: 17px;
+}
+.Blogspot .Blop hr {
+    width: 95%;
+    margin: 0;
+
+}
+.Blogspot .Blop p:nth-of-type(2) {
+    color: #cacaca;
+    padding-top: 0px;
+}
+
+
+.Blogspot .Blop p:nth-of-type(1) {
+    color: #cacaca;
+}
+
+.Blogspot .Blop p:nth-of-type(2) {
+    color: #f7933c;
+    padding-top: 0px;
+}
+
+.Blogspot .Blop p:nth-of-type(2) span {
+    color: #cacaca;
+    display: inline-block;
+}
+
+.Blogspot .Blop p:nth-of-type(3) {
+
+}
+
+.Blogspot .Blop a {
+    color: #1d7fc2;
+    text-align: right;
+    display: block;
+    padding-right: 4%;
+    text-decoration:  none;
+}
+
+.Blogspot .Blop  .Mobile-Apps {
+    color: #1d7fc2;
+    padding-bottom: 2px;
+    display:  block;
+    text-align:  left;
+    padding-top: 3px;
+}
+.Blogspot .link{
+     padding: 6px;
+    background-color: white;
+    border-radius: 34px;
+    border: 1px solid #f0892e;
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 3%;
+    width: 17%;
+    
+
+ 
+}
+.Blogspot button span{
+    font-size: 20px;
+        background-image: linear-gradient(to right, rgba(251, 137, 38, .9), rgba(29, 127, 194, 1));
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*start div subsricbe*/
+
+.subsricbe{
+    height: 400px;
+    background-image: url(../images/subricbe.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top:5%;
+    text-align: center;
+  
+
+}
+.subsricbe .overlay-3 {
+    height: 100%;
+   
+}
+.subsricbe h1 {
+    color: white;
+    padding-top: 3%;
+}
+.subsricbe input {
+    display: block;
+    margin: 7% auto;
+    padding: 17px;
+    width: 50%;
+    border-radius: 50px;
+    border: none;
+
+}
+.subsricbe  button{
+    position: relative;
+    top: -131px;
+    left: 18%;
+    border-radius: 50px;
+    padding: 12px;
+    border: none;
+    color: #ffffff;
+    width: 13%;
+  
+    
+}
+/*end div subsricbe*/
+
+/*start div footer*/
+
+.footer{
+    background-color: #282828;
+    text-align: center;    
+    font-family: moonlight;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer p{
+    color: #ffffff;
+    font-style: italic;
+    padding-top: 3%;
+    
+}
+.footer .scoial-icons{
+padding: 0px;
+}
+.footer .scoial-icons li{
+    display: inline-block;
+    margin-right: 5px;
+    line-height: 23px;
+}
+.footer .scoial-icons li a{
+    color: #c4c4c4;
+    background-color:#212121;     
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%; 
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+}
+.footer .scoial-icons li a:hover{
+ background-color: #c4c4c4; 
+  color: #212121;    
+}
+
+.footer span{
+display:inline-block;
+color:#f7933c;
+font-family: moonbold;
+margin-top: 2%;    
+cursor: pointer;
+}
+.footer .down{
+margin-left: 8px;
+font-size: 20px; 
+color:#f7933c;    
+}
+
+
+.footer  .more-info{
+font-family: moonbold;
+
+}
+
+.footer  .more-info p,
+.footer .more-info  .more-links,
+.footer .more-info  .more-links li a{
+color: #9d9ea1;    
+
+}
+
+.footer  .more-info p{
+font-weight: bold;
+font-style: normal;
+width:108%;
+}
+
+.footer .more-info  .more-links {
+text-align: left;   
+}
+
+.footer .more-info  .more-links h4{
+padding-bottom: 8%;
+} 
+
+.footer .more-info  .more-links li{
+margin-top: 2%;
+ 
+}
+.footer .more-info  .more-links li a{
+text-decoration: none;
+
+}
+.footer .more-info  .more-links i{
+font-size: 50px;
+color: #fff;
+margin-left: 1%;    
+}
+/*
+/*end  div style footer*/
+
+/*start div style copyright*/
+.copyright{
+background-color: #212121;    
+text-align: center;    
+padding-top: 8px;
+padding-bottom: 8px;    
+}
+
+.copyright p{
+color: #ffffff;
+margin-bottom: 0px;
+margin-top: 0px; 
+ 
+}
+
+.copyright span{
+ color: #f7933c;
+}
+/*end div style copyright*/
+
+
+/*################################ End page one ###########################*/
+
+
+/*################################ start page two ###########################*/
+
+/*start syle div for header*/
+
+.header {
+    background-color: #fafafa;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: SourceSans;
+}
+
+.header .list-header {
+    padding-top: 5px;
+}
+
+.header .list-header li {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.header .list-header li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #5b5b5b;
+}
+
+.header .list-header li .link-color{
+color: #a5a5a5;
+} 
+/*end syle div for header*/
+/*#######################################################*/
+
+
+
+/*start syle div for image ralated topipc*/
+.topic-iamge {
+    padding-top: 30px;
+    font-family: SourceSans;
+}
+
+.topic-iamge .topic h1 {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 2%;
+}
+.bloger {
+    padding-top: 20px;
+    overflow: hidden
+}
+.topic img {
+    width: 100%
+}
+.bloger img {
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%
+}
+.bloger span:nth-of-type(3) {
+    float: right;
+}
+
+.topic-iamge  .input-user input,
+.topic-iamge  .input-user h3{
+font-family:SourceSansPro-SemiBold;
+
+}
+.topic-iamge .input-user input {
+    margin-top: 3%;
+    padding: 15px;
+    border-radius: 50px;
+    width: 270px;
+    border: 1px solid #cccccc;
+    color: #7d7d7d;
+}
+.topic-iamge .input-user .number {
+    width: 80px;
+    height: 80px;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    position: relative;
+    top: -44px;
+    left: 66%;
+}
+.topic-iamge .input-user .number i {
+    font-size: 25px;
+}
+.topic-iamge .input-user h3 {
+    font-size: 20px;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.topic-iamge .input-user .rate {
+    border-bottom: 1px solid #cccccc;
+    font-family: SourceSans;
+    width: 90%;
+    margin-top: 10%;
+    overflow: hidden;
+    font-size: 18px;
+}
+.topic-iamge .input-user .rate p {
+    font-size: 18px;
+    color: #7b7b7b;
+    display: inline-block;
+}
+.topic-iamge .input-user .rate span {
+    color: #4d93ca;
+    float: right;
+}
+
+
+/*end syle div for image ralated topipc*/
+
+/*#############################################*/
+
+/*start div style for the paragraph related topic */
+.blog .puplic-blog {
+    font-family: SourceSans;
+}
+
+.blog .puplic-blog h4 {
+    font-size: 22px;
+    margin-top: 5%;
+    color: #2b87c6;
+    font-weight: bold;
+}
+
+.blog .puplic-blog p {
+    font-size: 18px;
+    color: #888888;
+    line-height: 2;
+   
+}
+/*end div style for the paragraph related topic */
+
+/*#############################################*/
+
+/*Start  div share style in div blog */
+.blog .puplic-blog .Comment ,
+.blog .puplic-blog .view,
+.blog .puplic-blog .social-media{
+padding-top: 3px;
+padding-bottom: 3px;    
+}
+
+
+.blog .puplic-blog .Comment a,
+.blog .puplic-blog .view a {
+    text-decoration: none;
+    margin-left: 4px;
+    font-size: 20px;
+    color: #7d7d7d;
+    font-weight: bold;
+}
+
+.blog .puplic-blog .Comment .fa-comment-alt,
+.blog .puplic-blog .view .fa-comment-alt {
+    font-size: 20px;
+    color: #7d7d7d;
+}
+
+.blog .puplic-blog .social-media li {
+    margin-left: 7px;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+}
+.blog .puplic-blog .social-media .fa-code-fork{
+    color: #1d7fc2;
+   font-size: 20px;
+}
+.blog .puplic-blog .social-media li:nth-of-type(1) {
+    background-color: #fff;
+    box-shadow: 1px  1px 1px 2px #ccc;
+    border-radius: 50%;
+    margin-top: 1px;
+}
+.blog .puplic-blog .social-media li:nth-of-type(2) {
+    background-color: #5f81c4;
+}
+
+.blog .puplic-blog .social-media li:nth-of-type(3) {
+    background-color: #43bcee;
+}
+
+.blog .puplic-blog .social-media li:nth-of-type(4) {
+    background-color: #e62b33;
+}
+
+.blog .puplic-blog .social-media li:nth-of-type(5) {
+    background-color: #2796cf;
+}
+
+.blog .puplic-blog .social-media li a {
+    text-decoration: none;
+}
+
+.blog .puplic-blog .social-media i{
+    color: white;
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+/*end  div share style in div blog */
+
+/*######################################################*/
+
+/*start div comments style and image user in div blog */
+
+.blog .puplic-blog .comments {
+    margin-top: 4%;
+    font-family: SourceSans;
+}
+
+.blog .puplic-blog .comments .user-comments {
+    background-color: #ededed;
+    padding: 4%;
+    position: relative;
+}
+
+.blog .puplic-blog .comments .user-comments span:nth-of-type(1) {
+    color: #5a97cb;
+    font-size: 22px;
+}
+
+.blog .puplic-blog .comments .user-comments span:nth-of-type(2) {
+    display: inline-block;
+    color: #747474;
+    position: relative;
+    left: 68%;
+    font-family: moonlight;
+    font-size: 18px;
+}
+
+.blog .puplic-blog .comments .user-comments input {
+    width: 520px;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+}
+
+.blog .puplic-blog .comments .user-comments button {
+    border-radius: 50px;
+    padding: 12px;
+    border: none;
+    color: #ffffff;
+    width: 20%;
+    font-family: moonbold;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.blog .puplic-blog .comments .user-comments:after {
+    border-color: #fff transparent;
+}
+
+.blog .puplic-blog .comments .user-comments:before {
+    border-color: #fff #ededed;
+}
+
+.blog .puplic-blog .comments .user-comments:after,
+.blog .puplic-blog .comments .user-comments:before {
+    content: "";
+    border-style: solid;
+    position: absolute;
+    top: 0px;
+    left: -54px;
+    border-width: 0px 54px 37px 0px;
+}
+
+.blog .puplic-blog .comments .user-image,
+.blog .puplic-blog .comments .user-image2,
+.blog .puplic-blog .comments .user-image3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 12px;
+    left: 7px;
+}
+
+.blog .puplic-blog .comments .user-image {
+    background-image: url(../images/user-comment.jpg);
+    background-position: 50% 50%;
+}
+
+.blog .puplic-blog .comments .user-image2 {
+    background-image: url(../images/usrer-iamge2.jpg);
+    background-position: 101% 50%;
+}
+
+.blog .puplic-blog .comments .user-image3 {
+    background-image: url(../images/user-image3.jpg);
+}
+
+
+/*end div comments style and image user in div blog */
+
+
+/*######################################################*/
+
+
+/*start div adding-commen style in div blog */
+
+.blog .puplic-blog .adding-comment {
+    margin-top: 3%;
+}
+
+.blog .puplic-blog .adding-comment .leave-comments textarea {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    background-color: #ededed;
+    border: none;
+    color: #7d7d7d;
+    font-size: 19px;
+    margin-top: 2%;
+}
+
+.blog .puplic-blog .adding-comment .leave-comments button {
+    border-radius: 50px;
+    padding: 12px;
+    border: none;
+    color: #ffffff;
+    width: 20%;
+    font-family: moonbold;
+    position: relative;
+    left: 80%;
+    top: 6px;
+    cursor: pointer;
+}
+
+
+/*################################################*/
+
+
+
